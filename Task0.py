@@ -11,6 +11,6 @@ if number < 0:
     number = number * - 1
 sum_digits = 0
 while (number != 0):
-    sum_digits += + (number % 10)
+    sum_digits += (number % 10)
     number = number // 10
 print("сумма цифр равна:", sum_digits)
