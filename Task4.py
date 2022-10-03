@@ -6,13 +6,10 @@
 import random
 
 number = int(input("Введите длину списка: "))
-
 list_num = list(range(number))
 len_list = len(list_num)
 print(list_num)
-
 for i in range(len_list):
     index_rand = random.randint(0, len_list - 1)
     list_num[i], list_num[index_rand] = index_rand, list_num[i]
-
 print(list_num)
