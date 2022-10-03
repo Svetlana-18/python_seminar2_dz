@@ -4,7 +4,7 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
-number = float(input("Введите дробное: "))
+number = float(input("Введите вещественное число: "))
 numberLengt = len(str(number)) - 2
 number = int(number * 10 ** numberLengt)
 if number < 0:
